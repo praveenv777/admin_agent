@@ -1,0 +1,66 @@
+.file-upload-card {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .upload-instructions {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f8fafc;
+    border-radius: var(--border-radius);
+    border-left: 4px solid var(--primary);
+  }
+  
+  .upload-instructions h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+  }
+  
+  .upload-instructions ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .file-input-container {
+    margin-bottom: 2rem;
+  }
+  
+  .file-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .file-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    background-color: #f8fafc;
+    border: 2px dashed var(--gray-light);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .file-label:hover {
+    border-color: var(--primary);
+  }
+  
+  .file-label i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+  }
+  
+  .upload-form button {
+    width: 100%;
+    font-weight: 500;
+  }

@@ -1,0 +1,14 @@
+.agent-form-card {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .invalid-feedback {
+    color: var(--danger);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  .is-invalid {
+    border-color: var(--danger);
+  }
